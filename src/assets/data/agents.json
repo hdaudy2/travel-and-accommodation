@@ -65,7 +65,7 @@
     },
     {
       "id": 8,
-      "type": "classic",
+      "type": "home",
       "img": "assets/images/about/1.jpg",
       "name": "Lee A. Sun",
       "title": "an elegant wave of the hand...",
@@ -74,7 +74,7 @@
     },
     {
       "id": 9,
-      "type": "classic",
+      "type": "home",
       "img": "assets/images/about/2.jpg",
       "name": "Peg Legge",
       "title": "An Elegant type of profile..",
@@ -83,7 +83,7 @@
     },
     {
       "id": 10,
-      "type": "classic",
+      "type": "home",
       "img": "assets/images/about/3.jpg",
       "name": "Anita Bath",
       "title": "an elegant wave of the hand...",
@@ -92,7 +92,7 @@
     },
     {
       "id": 11,
-      "type": "classic",
+      "type": "home",
       "img": "assets/images/about/4.jpg",
       "name": "Dee End",
       "title": "An Elegant type of profile..",
@@ -101,7 +101,7 @@
     },
     {
       "id": 12,
-      "type": "classic",
+      "type": "home",
       "img": "assets/images/about/2.jpg",
       "name": "Willie Makit",
       "title": "an elegant wave of the hand...",

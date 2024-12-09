@@ -65,42 +65,42 @@
   },
   {
     "id": 10,
-    "type": "classic",
+    "type": "home",
     "img": "assets/images/service/2.png",
     "title": "Mortgage Services",
     "desc": "Residences can be classified and connected to residences. Different types of housing can be used same physical type."
   },
   {
     "id": 11,
-    "type": "classic",
+    "type": "home",
     "img": "assets/images/service/1.png",
     "title": "Property Management",
     "desc": "Property management is the operation, maintenance, and oversight of real estate and physical property."
   },
   {
     "id": 12,
-    "type": "classic",
+    "type": "home",
     "img": "assets/images/service/3.png",
     "title": "Currency Services",
     "desc": "A currency is standardization of money in any form when use or circulation as medium of exchange."
   },
   {
     "id": 13,
-    "type": "classic",
+    "type": "home",
     "img": "assets/images/service/4.png",
     "title": "Important Notification",
     "desc": "Residences can be classified and connected to residences. Different types of housing can be used same physical type."
   },
   {
     "id": 14,
-    "type": "classic",
+    "type": "home",
     "img": "assets/images/service/5.png",
     "title": "Near by me",
     "desc": "Residences can be classified and connected to residences. Different types of housing can be used same physical type."
   },
   {
     "id": 15,
-    "type": "classic",
+    "type": "home",
     "img": "assets/images/service/1.png",
     "title": "Property Management",
     "desc": "Property management is the operation, maintenance, and oversight of real estate and physical property."
