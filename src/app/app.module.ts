@@ -26,6 +26,7 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
 import { ToastrModule } from 'ngx-toastr';
 
 import { AppComponent } from './app.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [AppComponent],
@@ -43,7 +44,8 @@ import { AppComponent } from './app.component';
     NgxsStoragePluginModule.forRoot({
       key: ['wishlist', 'compare'],
     }),
-    CoreTranslateModule
+    CoreTranslateModule,
+    FontAwesomeModule
   ],
   providers: [
   ],

@@ -10,6 +10,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { LeafletModule } from '@asymmetrik/ngx-leaflet';
 import { LightboxModule } from 'ng-gallery/lightbox';
 import { TranslateModule } from '@ngx-translate/core';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 import 'hammerjs';
 import 'mousetrap';
 
@@ -291,7 +293,8 @@ import { LatestBlogHorizontalComponent } from './components/footer/widgets/lates
     ReactiveFormsModule,
     TranslateModule,
     NgbDropdownModule,
-    GoogleMapsModule
+    GoogleMapsModule,
+    FontAwesomeModule
   ],
   providers: [CurrencyPipe],
   exports: [

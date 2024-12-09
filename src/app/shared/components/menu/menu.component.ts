@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { Menu, NavService } from '../../services/nav.service';
+import { faBed, faCar, faMapMarked } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-menu',
@@ -12,6 +13,10 @@ export class MenuComponent {
   @Input() icon: boolean | undefined;
   @Input() menuRight: boolean = false;
 
+  faBed = faBed;
+  faCar = faCar;
+  faMapMarked = faMapMarked;
+
   public menuItems: Menu[] = [];
   public isOpenMenu: boolean = false;
   public open: boolean = false;
@@ -20,6 +25,7 @@ export class MenuComponent {
     this.navServices.items.subscribe(
       (menuItems) => (this.menuItems = menuItems)
     );
+    this.menuItems = []
   }
 
   openSideMenu() {

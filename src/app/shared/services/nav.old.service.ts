@@ -30,13 +30,6 @@ export class NavService {
 
   public MENUITEMS: Menu[] = [
     {
-      title: 'stay',
-      type: 'single',
-      path: '/',
-      active: true,
-      megaMenu: false
-    },
-    {
       title: 'home',
       icon: 'home',
       type: 'sub',

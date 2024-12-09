@@ -11,6 +11,21 @@
                         <i aria-hidden="true" class="fa fa-angle-right ps-2"></i>
                     </div>
                 </li>
+                <li class="mega-menu active">
+                  <a routerLink="/" class="nav-link menu-title">
+                    <fa-icon [icon]="faBed" /> Stays
+                  </a>
+                </li>
+                <li class="mega-menu">
+                  <a routerLink="/" class="nav-link menu-title">
+                    <fa-icon [icon]="faCar" /> Car Rentals
+                  </a>
+                </li>
+                <li class="mega-menu">
+                  <a routerLink="/" class="nav-link menu-title">
+                    <fa-icon [icon]="faMapMarked" /> Experiences
+                  </a>
+                </li>
                   @for(menuItem of menuItems; track menuItem){
                     @if(!menuItem.megaMenu){
                       <li class="dropdown" [ngClass]="{ 'dropdown-right' : menuItem.right && menuRight }">
