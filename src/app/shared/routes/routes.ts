@@ -5,10 +5,10 @@ export const content: Routes = [
     path: '',
     loadChildren: () => import('../../module/home/home.module').then((m) => m.HomeModule),
   },
-  // {
-  //   path: 'listing/grid-view',
-  //   loadChildren: () => import('../../components/listing/grid-view/grid-view.module').then((m) => m.GridViewModule),
-  // },
+  {
+    path: 'search',
+    loadChildren: () => import('../../module/search/search.module').then((m) => m.SearchModule),
+  },
   // {
   //   path: 'listing/list-view',
   //   loadChildren: () => import('../../components/listing/list-view/list-view.module').then((m) => m.ListViewModule),

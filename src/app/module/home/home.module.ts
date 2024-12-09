@@ -10,6 +10,8 @@ import { HomeAgentsComponent } from "./components/home-agents/home-agents.compon
 import { HomeBannerComponent } from "./components/home-banner/home-banner.component";
 import { HomeBrandComponent } from "./components/home-brand/home-brand.component";
 import { HomeFeaturedPropertyComponent } from "./components/home-featured-property/home-featured-property.component";
+import { HomeFilterLatestRentComponent } from "./components/Home-filter-latest-rent/home-filter-latest-rent.component";
+import { HomeFilterPropertyInCitiesComponent } from "./components/home-filter-property-in-cities/home-filter-property-in-cities.component";
 import { HomeFilterLatestSaleComponent } from "./components/home-filter-latest-sale/home-filter-latest-sale.component";
 import { HomeHappyClientComponent } from "./components/home-happy-client/home-happy-client.component";
 import { HeroSectionComponent } from "./components/home-hero-section/hero-section.component";
@@ -17,13 +19,14 @@ import { HomeLatestPropertyComponent } from "./components/home-latest-property/h
 import { HomePropertyServiceComponent } from "./components/home-property-service/home-property-service.component";
 import { HomeVideoComponent } from "./components/home-video/home-video.component";
 
-
 // COMPONENTS
 const COMPONENTS = [
     HomeAgentsComponent,
     HomeBannerComponent,
     HomeBrandComponent,
     HomeFeaturedPropertyComponent,
+    HomeFilterLatestRentComponent,
+    HomeFilterPropertyInCitiesComponent,
     HomeFilterLatestSaleComponent,
     HomeHappyClientComponent,
     HeroSectionComponent,

@@ -15,9 +15,9 @@ export class HomeFilterLatestSaleComponent {
   @Input() titleType: string;
 
   public title = 'slider_filter_search';
-  public tag = "Sale";
-  public heading = "Latest For Sale";
-  public desc = "Elegant retreat in Coral Gables setting. This home provides entertaining spaces with kitchen opening.";
+  public tag = "Deals";
+  public heading = "Deals for the weekend";
+  public desc = "Save on stays for December 13 - December 15";
 
   public propertyData: latestForSale[] = []
 

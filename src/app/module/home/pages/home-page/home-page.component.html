@@ -1,23 +1,23 @@
 <app-home-hero-section />
 
+<app-home-latest-property [latestPropertyData]="latestPropertyData" />
+
+<app-home-featured-property />
+
+<app-home-filter-latest-rent [propertyClass]="true" [tagClass]="'color-4'" [title]="'image_content'" />
+
+<app-home-filter-property-in-cities [tagClass]="'color-4'" [title]="'slider_filter_search'" [sectionClass]="'gallery-6'" />
+
 <div class="theme-search-tab">
     <app-home-filter-latest-sale [tagClass]="'color-4'" [titleType]="'basic'" />
 </div>
 
-<app-home-featured-property />
-
-<app-home-property-service />
-
-<app-home-latest-property [latestPropertyData]="latestPropertyData" />
-
 <app-home-video />
 
-<app-home-happy-client />
+<app-home-property-service />
 
 <div class="search-tab-slider">
     <app-home-banner />
 </div>
-
-<app-home-agents />
 
 <app-home-brand />
