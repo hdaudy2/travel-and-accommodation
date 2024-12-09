@@ -1,0 +1,14 @@
+import { Component } from '@angular/core';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+
+@Component({
+  selector: 'app-edit-user-password-modal',
+  templateUrl: './edit-user-password-modal.component.html',
+  styleUrls: ['./edit-user-password-modal.component.scss'],
+  standalone: false
+})
+export class EditUserPasswordModalComponent {
+
+  constructor(public modal: NgbModal) {}
+  
+}
