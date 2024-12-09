@@ -17,6 +17,8 @@ export class HomeFeaturedPropertyComponent {
 
   ngOnInit() {
     this.propertyService.featuredPropertyData().subscribe((response) => {
+      console.log(response);
+      
       this.featuredProperty = response.featuredProperty.filter(
         (item) => item.type == this.title
       );

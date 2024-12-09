@@ -85,7 +85,7 @@
   },
   {
     "id": 6,
-    "type": "classic",
+    "type": "home",
     "title": "Monumental Real Estate Services ",
     "city": "Merrick Way, Miami, FL United Kingdom",
     "description": "Residences can be classified by and how they are connected to neighbouring residences and land. Different types of housing tenure can be used for the same physical type.",
@@ -102,7 +102,7 @@
   },
   {
     "id": 7,
-    "type": "classic",
+    "type": "home",
     "title": "Home in California Avenue ",
     "city": "Merrick Way, Miami, FL United Kingdom",
     "description": "Different types of housing tenure can be used for the same physical type. Residences can be classified by and how they are connected to neighbouring residences and land.",
@@ -110,11 +110,11 @@
     "sqft": "9532",
    "images":[
       {
-      "url": "assets/images/blog/1.jpg",
+      "url": "assets/images/feature/1.jpg",
       "fileType": "image"
       }
     ],
-    "thumb": "assets/images/blog/1.jpg",
+    "thumb": "assets/images/feature/1.jpg",
     "tag": "Land For Sale"
   }
 ]
