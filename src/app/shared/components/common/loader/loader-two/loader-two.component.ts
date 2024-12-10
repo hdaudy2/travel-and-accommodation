@@ -13,6 +13,6 @@ export class LoaderTwoComponent {
   constructor() {
     setTimeout(() => {
       this.show = false;
-    }, 3000);
+    }, 1000);
   }
 }

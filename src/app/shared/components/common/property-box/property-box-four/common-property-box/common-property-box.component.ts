@@ -19,7 +19,7 @@ export class CommonPropertyBoxComponent {
     private router: Router) {}
 
   getDetails(id:number){
-    this.router.navigate(['/property/image-box'], {
+    this.router.navigate(['/search/details'], {
       relativeTo: this.route,
       queryParams: { id : id },
       queryParamsHandling: 'merge', // preserve the existing query params in the route
