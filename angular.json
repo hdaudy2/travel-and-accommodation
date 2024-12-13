@@ -27,7 +27,7 @@
                 "mousetrap",
                 "feather-icons"
             ],
-            "outputPath": "dist/travel-and-accommodation/browser",
+            "outputPath": "dist/travel-and-accommodation",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [

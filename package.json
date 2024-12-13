@@ -6,7 +6,10 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "docker:build": "bash build.sh",
+    "docker:deploy": "bash deploy.sh",
+    "docker:remove": "docker stop travel-and-accommodation"
   },
   "private": true,
   "dependencies": {
