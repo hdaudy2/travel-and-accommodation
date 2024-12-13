@@ -5,18 +5,18 @@
       @for(labels of latestForRentData.labels; track labels){
         <div>
           @if(labels.includes('sale')){
-            <span class="label label-shadow">Sale</span>
+            <span class="label label-shadow">New</span>
           }
           @if(labels.includes('fees')){
             <div>
-              <span class="label label-dark">no fees</span>
+              <span class="label label-dark">Top Rated</span>
             </div>
           }
           @if(labels.includes('openHouse')){
-            <span class="label label-success">open house</span>
+            <span class="label label-success">Best Accommodation</span>
           }
           @if(labels.includes('sold')){
-            <span class="label label-shadow">Sold</span>
+            <span class="label label-shadow">Recommended</span>
           }
         </div>
       }
