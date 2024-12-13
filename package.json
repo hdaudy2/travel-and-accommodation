@@ -9,7 +9,7 @@
     "test": "ng test",
     "docker:build": "bash build.sh",
     "docker:deploy": "bash deploy.sh",
-    "docker:remove": "docker stop travel-and-accommodation"
+    "docker:remove": "docker rm -f travel-and-accommodation"
   },
   "private": true,
   "dependencies": {
