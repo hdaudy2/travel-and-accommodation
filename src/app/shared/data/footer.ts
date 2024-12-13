@@ -133,56 +133,52 @@ export const socialFooterData = [
 
 export const buyFooterData = [
     {
-        title : 'Home For Sale',
-        path : '/listing/grid-view/2-grid/left-sidebar',
+        title : 'Genius loyalty program',
+        path : '/search',
     },
     {
-        title : 'Open House',
-        path : '/listing/grid-view/3-grid/left-sidebar',
+        title : 'Seasonal and holiday deals',
+        path : '/search',
     },
     {
-        title : 'New Listing',
-        path : '/listing/list-view/listing/left-sidebar',
+        title : 'Travel articles',
+        path : '/search',
     },
     {
-        title : 'Recently Reduce',
-        path : '/listing/list-view/thumbnail-image',
+        title : 'Traveller Review Awards',
+        path : '/search',
     },
     {
-        title : 'Off-Market Home',
-        path : '/listing/grid-view/slider',
+        title : 'Car rental',
+        path : '/search',
     },
     {
-        title : 'Latest House',
-        path : '/listing/list-view/video',
+        title : 'Restaurant reservations',
+        path : '/search',
     },
 ]
 
 export const sellFooterData = [
     {
-        title : 'Sale Your Home',
-        path : '/agent/submit-property',
+        title : 'Privacy & cookies',
+        path : '/',
     },
     {
-        title : 'Get a Home Version',
+        title : 'Terms & conditions',
         path : '/listing/list-view/listing/right-sidebar',
     },
     {
-        title : 'Lock Home Price',
+        title : 'Partner dispute',
         path : '/page/other-pages/pricing',
     },
     {
-        title : 'Guide & Rules',
+        title : 'Modern Slavery Statement',
         path : '/page/other-pages/privacy-policy',
     },
     {
-        title : 'Sold Home History',
+        title : 'Human Rights Statement',
         path : '/listing/grid-view/3-grid/left-sidebar',
-    },
-    {
-        title : 'Other',
-        path : '/listing/tab-layout/tab-full-width',
-    },
+    }
 ]
 
 export const relandEstateFooterData = [
