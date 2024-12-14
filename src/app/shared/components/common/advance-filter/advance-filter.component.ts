@@ -12,9 +12,9 @@ export class AdvanceFilterComponent {
 
   @Input() propertyFilterSliderData: img[];
   @Input() contact: boolean = true;
-  @Input() featured: boolean = true;
-  @Input() mortgage: boolean = true;
-  @Input() filter: boolean = true;
+  @Input() featured: boolean = false;
+  @Input() mortgage: boolean = false;
+  @Input() filter: boolean = false;
 
   @Output() categoryValue = new EventEmitter<categoryParams>();
   @Output() propertyStatusData = new EventEmitter<statusParams>();
