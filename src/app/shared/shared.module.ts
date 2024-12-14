@@ -142,7 +142,6 @@ import { GoogleMapsModule } from '@angular/google-maps';
 import { LogInModalComponent } from './components/common/modal/log-in-modal/log-in-modal.component';
 import { ModalLoginFormComponent } from './components/common/modal/widgets/modal-login-form/modal-login-form.component';
 import { ModalRegisterFormComponent } from './components/common/modal/widgets/modal-register-form/modal-register-form.component';
-import { LayoutComponent } from './components/layouts/layout/layout.component';
 import { LatestBlogHorizontalComponent } from './components/footer/widgets/latest-blog-horizontal/latest-blog-horizontal.component';
 
 
@@ -275,8 +274,6 @@ import { LatestBlogHorizontalComponent } from './components/footer/widgets/lates
     LogInModalComponent,
     ModalLoginFormComponent,
     ModalRegisterFormComponent,
-
-    LayoutComponent
   ],
 
   imports: [

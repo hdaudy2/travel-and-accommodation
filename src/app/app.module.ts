@@ -13,6 +13,7 @@ import { NgxsReduxDevtoolsPluginModule } from '@ngxs/devtools-plugin';
 import { NgxsStoragePluginModule } from '@ngxs/storage-plugin';
 
 // CORE MODULES
+import { layoutModule } from '@core/layouts/layout.module';
 import { CoreTranslateModule } from '@core/localization/shared.module';
 
 // SHARED MODULES
@@ -35,16 +36,19 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     BrowserAnimationsModule,
     AppRoutingModule,
     HttpClientModule,
-    ToastrModule.forRoot(),
-    CarouselModule,
 
+    layoutModule,
+    CoreTranslateModule,
+    
     // Ngxs
     NgxsModule.forRoot([wishlistState, categoryState, compareState, imageState, propertyState]),
     NgxsReduxDevtoolsPluginModule.forRoot(),
     NgxsStoragePluginModule.forRoot({
       key: ['wishlist', 'compare'],
     }),
-    CoreTranslateModule,
+    
+    ToastrModule.forRoot(),
+    CarouselModule,
     FontAwesomeModule
   ],
   providers: [
